@@ -1,11 +1,11 @@
 # Política de Privacidad
 
-**Última actualización:** 02-11-2026
+**Última actualización:** 03-11-2026
 
 En Vynce, valoramos profundamente tu privacidad y tu derecho a la soberanía de tus datos. Esta política explica con total transparencia cómo funciona la aplicación en tu equipo y cuándo se comunica con la red.
 
 ## 1. Procesamiento y Almacenamiento Local
-Tu biblioteca de música, rutas de carpetas, listas de reproducción, letras guardadas, estadísticas de reproducción, dispositivos vinculados y preferencias (como tu alias o tema visual) se procesan y almacenan **estrictamente de forma local** en tu dispositivo mediante una base de datos SQLite y almacenamiento local de la aplicación. Vynce **nunca** sube tus archivos de audio ni tu base de datos completa a servidores en la nube.
+Tu biblioteca de música, rutas de carpetas, listas de exclusión (lista negra de carpetas y canciones ignoradas), listas de reproducción, letras guardadas, estadísticas de reproducción, dispositivos vinculados y preferencias (como tu alias o tema visual) se procesan y almacenan **estrictamente de forma local** en tu dispositivo mediante una base de datos SQLite y almacenamiento local de la aplicación. Vynce **nunca** sube tus archivos de audio ni tu base de datos completa a servidores en la nube.
 
 ## 2. Conexiones Externas a Internet
 Vynce realiza solicitudes a servicios externos únicamente en los siguientes escenarios:
@@ -25,7 +25,9 @@ Para permitir la función de **Dispositivos y Control Remoto** entre tus computa
 * Vynce genera un identificador único local (UUID), ejecuta un servicio local en el puerto **4000** y utiliza el protocolo **Bonjour (mDNS)** dentro de tu red local (Wi-Fi/Ethernet) para anunciar la presencia del reproductor (nombre del equipo, sistema operativo y tipo de chasis).
 * Cuando vinculas dos equipos mediante código PIN, ambos dispositivos pueden sincronizar el estado de reproducción y transmitir el flujo de audio y carátulas directamente entre sí a través de tu red local, sin pasar por servidores externos en Internet.
 
-## 5. Control y Borrado de Datos
-Tienes el control absoluto sobre tu información:
-* Puedes borrar las carátulas y biografías descargadas en cualquier momento desde **Configuración > Avanzado > Limpiar caché**.
-* Puedes eliminar permanentemente toda la base de datos local, listas de reproducción, dispositivos vinculados, configuraciones y cachés utilizando la opción **Restablecer de fábrica** en **Configuración > Acerca de**, o al desinstalar la aplicación. Tus archivos de música originales en tu disco duro nunca son eliminados por Vynce.
+## 5. Control, Lista Negra y Borrado de Datos
+Tienes el control absoluto sobre tu información y tus archivos locales:
+* **Caché de Metadatos:** Puedes borrar las carátulas y biografías descargadas en cualquier momento desde **Configuración > Avanzado > Limpiar caché**.
+* **Eliminar de Vynce (Lista Negra):** Puedes ocultar canciones específicas de tu biblioteca mediante la opción **Eliminar de Vynce**, la cual las envía a una lista negra local para que el escáner las ignore sin borrar el archivo físico de tu disco duro. Puedes consultar y restaurar estas canciones en cualquier momento desde **Configuración > Biblioteca**.
+* **Eliminar de PC (Borrado Físico Manual):** Vynce nunca modifica ni elimina tus archivos de música de forma automática. Sin embargo, si eliges manualmente la opción **Eliminar de PC** desde el menú contextual de una pista y confirmas expresamente el aviso de seguridad en pantalla, Vynce procederá a borrar el archivo de audio correspondiente del almacenamiento de tu computadora.
+* **Restablecimiento de Fábrica:** Puedes eliminar permanentemente toda la base de datos local, listas de reproducción, dispositivos vinculados, configuraciones y cachés utilizando la opción **Restablecer de fábrica** en **Configuración > Acerca de**, o al desinstalar la aplicación (este proceso no elimina tus archivos de música del disco duro).
