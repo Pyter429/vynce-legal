@@ -1,6 +1,6 @@
 # Términos y Condiciones de Uso
 
-**Última actualización:** 03-11-2026
+**Última actualización:** 09-11-2026
 
 Bienvenido a Vynce. Al descargar, instalar o utilizar nuestro reproductor de música, aceptas estar sujeto a estos Términos y Condiciones de Uso.
 
@@ -12,6 +12,7 @@ Bienvenido a Vynce. Al descargar, instalar o utilizar nuestro reproductor de mú
 
 ## 2. Servicios, APIs de Terceros y YouTube
 * **Proveedores de Metadatos y Letras:** Vynce consulta servicios públicos de terceros (incluyendo **LRCLIB, Lyrics.ovh, TheAudioDB, Deezer, Apple iTunes y Wikipedia**) para mostrar carátulas, biografías, créditos y letras. No garantizamos la exactitud, disponibilidad continua ni integridad de estos datos, cuyos derechos pertenecen a sus respectivos propietarios y proveedores.
+* **Traducción Automática de Letras:** Vynce puede traducir letras en tu equipo con modelos de traducción automática de terceros (Opus-MT, de Helsinki-NLP), que se descargan de **Hugging Face**. Las traducciones son aproximadas y pueden contener errores, sobre todo en frases coloquiales, jerga o nombres; no deben tomarse como una traducción fiel u oficial. Los derechos de las letras y de sus traducciones pertenecen a sus respectivos titulares, y debes usarlas solo de forma personal.
 * **Videos de YouTube:** La función de visualización de videos oficiales utiliza búsquedas automatizadas y el reproductor incrustado de **YouTube**. Vynce no aloja ni controla dichos videos; su visualización está sujeta a la disponibilidad de la plataforma y a los Términos de Servicio de YouTube.
 
 ## 3. Vynce Lyrics Studio y Reportes de Usuario
