@@ -1,6 +1,6 @@
 # Acuerdo de Licencia de Usuario Final (EULA)
 
-**Última actualización:** 03-11-2026
+**Última actualización:** 04-11-2026
 
 Este Acuerdo de Licencia de Usuario Final ("Acuerdo") es un contrato legal entre tú (como individuo) y el desarrollador de Vynce (Pedro Pablo / Pyter429). Al descargar, instalar o utilizar el software Vynce, aceptas quedar vinculado por los siguientes términos.
 
